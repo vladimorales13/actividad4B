@@ -11,4 +11,12 @@ public class Usuario {
         this.nombre = nombre;
         this.email = email;
     }
+
+    public String getNombre(){
+        return this.nombre;
+    }
+
+    public String getEmail(){
+        return this.email;
+    }
 }
